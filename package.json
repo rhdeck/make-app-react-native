@@ -1,0 +1,36 @@
+{
+  "name": "make-app-react-native",
+  "version": "1.0.0",
+  "description": "Make-app helper for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/make-app-react-native.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/make-app-react-native/issues"
+  },
+  "homepage": "https://github.com/rhdeck/make-app-react-native#readme",
+  "dependencies": {
+    "react-native-cli": "*"
+  },
+  "makeApp": {
+    "initializer": {
+      "command": "react-native",
+      "arguments": [
+        "init"
+      ]
+    },
+    "runLate": {
+      "command": "react-native",
+      "arguments": [
+        "link"
+      ]
+    }
+  }
+}
