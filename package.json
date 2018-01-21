@@ -22,15 +22,11 @@
   "makeApp": {
     "initializer": {
       "command": "react-native",
-      "arguments": [
-        "init"
-      ]
+      "arguments": ["init"]
     },
     "runLate": {
       "command": "react-native",
-      "arguments": [
-        "link"
-      ]
+      "arguments": ["link"]
     }
   }
 }
